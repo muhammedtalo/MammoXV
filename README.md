@@ -24,18 +24,14 @@ Official open-source repository containing the deterministic preprocessing engin
 The project directory layout is strictly organized as follows:
 
 ```text
-├── .gitattributes
-├── MammoXV_GitHub_Release/           # Anonymized dataset release directories
-│   ├── CC/                           # Cranio-Caudal projections (Sequential IDs)
-│   │   ├── Normal/                   # MammoXV_001.png, MammoXV_002.png...
-│   │   ├── Benign/
-│   │   └── Malign/
-│   └── MLO/                          # Medio-Lateral-Oblique complementary views
-│       ├── Normal/
-│       ├── Benign/
-│       └── Malign/
-├── 01_preprocessing.ipynb            # Stage 1: Artifact & pectoral boundary removal
-├── 02_data_pipeline.ipynb            # Stage 2: Balanced patient-disjoint fold splits
-├── 03_ablation.ipynb                 # Stage 3: Feature pool & cross-attention ablation matrix
-├── 04_multitask.ipynb                # Stage 4: Production model multi-task training
-└── 05_baselines.ipynb                # Stage 5: Rigorous comparative baseline suites
+
+├── Dataset/           
+   ├── CC/                           
+   │   ├── Normal/                  
+   │   ├── Benign/
+   │   └── Malign/
+   └── MLO/                          
+       ├── Normal/
+       ├── Benign/
+       └── Malign/
+               
