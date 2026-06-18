@@ -15,7 +15,7 @@ Official open-source repository containing the deterministic preprocessing engin
 ### Core Benchmarking Targets:
 * **Task 1 (Characterization):** Discriminates Benign vs. Malignant findings ($\text{AUC} = \mathbf{0.8036}$).
 * **Task 2 (Cancer Detection):** Identifies Malignant vs. All Non-Malignant cases ($\text{AUC} = \mathbf{0.8503}$), catching **84.47%** of confirmed malignancies.
-* **Task 3 (Screening):** Flags Malignant vs. Normal tissue ($\text{AUC} = \mathbf{0.9743}$) with a stable **92.59%** specificity threshold for population triage.
+* **Task 3 (Screening):** Flags Malignant vs. Normal tissue ($\text{AUC} = \mathbf{0.9743}$).
 
 ---
 
