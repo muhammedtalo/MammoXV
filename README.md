@@ -21,7 +21,7 @@ Official open-source repository containing the deterministic preprocessing engin
 
 ## 📂 Repository Topology & Code Navigation
 
-The project directory layout is strictly organized as follows:
+The project dataset folder is organized as follows:
 
 ```text
 
