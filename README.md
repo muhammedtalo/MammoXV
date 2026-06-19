@@ -10,7 +10,7 @@ Official open-source repository containing the deterministic preprocessing engin
 
 ## 📌 Executive Summary
 
-**MammoXV** is a dual-view mammographic benchmark comprising **961 patients** (1,922 images) designed for patient-disjoint, leakage-free evaluation. Both Cranio-Caudal (CC) and Medio-Lateral-Oblique (MLO) projections are processed simultaneously using a weight-shared visual foundation backbone (**Base Vision Transformer**) and global average pooling feature fusion.
+**MammoXV** is a dual-view mammographic benchmark designed for patient-disjoint, leakage-free evaluation. Both Cranio-Caudal (CC) and Medio-Lateral-Oblique (MLO) projections are processed simultaneously using a weight-shared visual foundation backbone (**Base Vision Transformer**) and global average pooling feature fusion.
 
 ### Core Benchmarking Targets:
 * **Task 1 (Characterization):** Discriminates Benign vs. Malignant findings ($\text{AUC} = \mathbf{0.8036}$).
